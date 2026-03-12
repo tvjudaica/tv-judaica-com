@@ -1,0 +1,21 @@
+# TV Judaica - robots.txt
+# Permitir acesso de todos os crawlers
+User-agent: *
+Allow: /
+Disallow: /images/
+
+# Permitir acesso específico de crawlers importantes
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Configuração geral
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://tvjudaica.com.br/sitemap.xml

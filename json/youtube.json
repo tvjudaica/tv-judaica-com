@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "criado_em": "2026-02-21 17:51:26.660517+00",
+        "atualizado_em": "2026-02-21 17:51:26.660517",
+        "nome": "Programa Conexão Judaica",
+        "link_playlist": "https://www.youtube.com/playlist?list=PLyzXxGGQJWEwAM1q6izUh9uWRsStypjJq",
+        "ativo": true,
+        "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/conexao-judaica.png"
+    },
+    {
+        "id": 2,
+        "criado_em": "2026-03-09 12:21:20.452516+00",
+        "atualizado_em": "2026-03-09 12:21:20.452516",
+        "nome": "Ponto Feminino",
+        "link_playlist": "https://www.youtube.com/playlist?list=PLyzXxGGQJWExPZEsktrCe3vumBqSpwicI",
+        "ativo": true,
+        "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/ponto-feminino.png"
+    },
+    {
+        "id": 3,
+        "criado_em": "2026-03-09 12:21:20.452516+00",
+        "atualizado_em": "2026-03-09 12:21:20.452516",
+        "nome": "Entre Elas",
+        "link_playlist": "https://www.youtube.com/playlist?list=PLyzXxGGQJWEzizlOcSHZFFvmKvkCnHIX0",
+        "ativo": true,
+        "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/entre-elas.png"
+    },
+    {
+        "id": 4,
+        "criado_em": "2026-03-09 12:21:20.452516+00",
+        "atualizado_em": "2026-03-09 12:21:20.452516",
+        "nome": "Shalom Pro Mundo",
+        "link_playlist": "https://www.youtube.com/playlist?list=PLyzXxGGQJWEz1Ev_96V4BxjztwFkc1zHL",
+        "ativo": true,
+        "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/shalom-pro-mundo.png"
+    },
+    {
+        "id": 5,
+        "criado_em": "2026-03-09 12:21:20.452516+00",
+        "atualizado_em": "2026-03-09 12:21:20.452516",
+        "nome": "Agenda da Comuna",
+        "link_playlist": "https://www.youtube.com/watch?v=hpbXOIc7-hw&list=PLyzXxGGQJWEx3oavaoKqNR7JM14Cv4W64",
+        "ativo": true,
+        "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/agenda-da-comuna.png"
+    },
+    {
+        "id": 6,
+        "criado_em": "2026-03-09 12:21:20.452516+00",
+        "atualizado_em": "2026-03-09 12:21:20.452516",
+        "nome": "Programa Em Foco",
+        "link_playlist": "https://www.youtube.com/playlist?list=PLyzXxGGQJWEyH8fNFN35xWGegTssy0k6x",
+        "ativo": true,
+        "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/em-foco.png"
+    },
+    {
+        "id": 7,
+        "criado_em": "2026-03-09 12:21:20.452516+00",
+        "atualizado_em": "2026-03-09 12:21:20.452516",
+        "nome": "Raizes judaicas",
+        "link_playlist": "https://www.youtube.com/playlist?list=PLyzXxGGQJWEwdFTrfD6KPCI0ht6wMQqAo",
+        "ativo": true,
+        "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/raizes-judaica.png"
+    },
+    {
+        "id": 8,
+        "criado_em": "2026-03-09 12:21:20.452516+00",
+        "atualizado_em": "2026-03-09 12:21:20.452516",
+        "nome": "Branding 360",
+        "link_playlist": "https://www.youtube.com/playlist?list=PLyzXxGGQJWEy4fW930EdGHCgik-6ABw7K",
+        "ativo": true,
+        "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/branding-360.png"
+    },
+    {
+        "id": 9,
+        "criado_em": "2026-03-09 12:21:20.452516+00",
+        "atualizado_em": "2026-03-09 12:21:20.452516",
+        "nome": "Medicina & Vc",
+        "link_playlist": "https://www.youtube.com/watch?v=Ut43RPEj2b4&list=PLyzXxGGQJWEzxwba4y0Gz0V9qpa-BWWQj",
+        "ativo": true,
+        "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/medicina-e-vc%20.png"
+    }
+]
