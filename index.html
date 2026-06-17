@@ -31,15 +31,36 @@
             </button>
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#sobre"><i class="fas fa-info-circle"></i> Sobre</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-home"></i> Home
+                        </a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#missao"><i class="fas fa-bullseye"></i> Missão</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">
+                            <i class="fas fa-info-circle"></i> Sobre
+                        </a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#app"><i class="fas fa-mobile-alt"></i>
-                            Aplicativo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="politica-de-privacidade.html"><i
-                                class="fas fa-shield-alt"></i> Privacidade</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#missao">
+                            <i class="fas fa-bullseye"></i> Missão
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#app"><i class="fas fa-mobile-alt"></i>
+                            Aplicativo
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">
+                            <i class="fas fa-envelope"></i> Contato
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="politica-de-privacidade.html">
+                            <i class="fas fa-shield-alt"></i> Privacidade
+                        </a>
+                    </li>
                     <li class="nav-item">
                         <a href="#app" class="btn btn-primary-custom ms-3">Baixar App</a>
                     </li>
@@ -59,7 +80,7 @@
                         Cultura, tradição, sionismo e combate ao antissemitismo por meio da informação, educação e
                         representatividade.
                     </p>
-                    <a href="#app" class="btn btn-primary-custom mt-3">Assistir Agora</a>
+                    <a href="#live" class="btn btn-primary-custom mt-3">Assistir Agora</a>
                 </div>
                 <div class="col-lg-6 text-center">
                     <img src="./images/arte-site-aplicativo.png" alt="Aplicativo TV Judaica">
@@ -68,12 +89,11 @@
         </div>
     </header>
 
-    <section>
+    <section id="live">
         <div class="live-player container">
             <div class="d-flex justify-content-between align-items-center mb-3 flex-column flex-md-row">
                 <div>
-                    <h2>Ao Vivo</h2>
-                    <p class="live-subtitle">A primeira televisão judaica do Brasil</p>
+                    <h2 class="live-title">Ao Vivo</h2>
                 </div>
                 <div class="store-links mt-3 mt-md-0">
                     <a href="https://play.google.com/store/search?q=tv+judaica&c=apps&hl=en" target="_blank"
@@ -92,6 +112,15 @@
             <div class="video-wrapper">
                 <iframe src="https://tvjudaica.github.io/player/" title="TV Judaica - Ao Vivo" allowfullscreen
                     allow="autoplay; encrypted-media; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="patrocinadores" class="py-5">
+        <div class="container text-center">
+            <div id="patrocinadorCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" id="carousel-patrocinadores">
+                </div>
             </div>
         </div>
     </section>
@@ -133,36 +162,7 @@
         </div>
     </section>
 
-    <section id="patrocinadores" class="py-5 patrocinadores-section">
-        <div class="container text-center">
-            <h2 class="mb-3">Nossos Patrocinadores</h2>
-            <p class="lead mb-5">
-                Empresas e parceiros que acreditam na missão da TV Judaica ajudam a levar
-                cultura, informação e valores para milhares de espectadores todos os dias.
-                Se sua empresa deseja apoiar este projeto e fortalecer a presença da
-                cultura judaica na mídia, será um prazer tê-lo conosco.
-            </p>
-            <div id="patrocinadorCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner" id="carousel-patrocinadores">
-                </div>
-            </div>
-            <div class="mt-5 patrocinador-contato">
-                <h4 class="mb-3">Torne-se um patrocinador</h4>
-                <p>
-                    Sua marca pode estar presente em nossa programação e alcançar uma
-                    audiência qualificada e engajada. Entre em contato conosco para
-                    conhecer as oportunidades de parceria.
-                </p>
-                <p class="mt-3">
-                    <i class="fas fa-envelope"></i>
-                    contato@tvjudaica.com
-                    &nbsp;&nbsp;
-                    <i class="fab fa-whatsapp"></i>
-                    +55 (11) 9 9017-1621
-                </p>
-            </div>
-        </div>
-    </section>
+
 
     <section id="youtube-playlists" class="py-5 bg-dark text-white">
         <div class="container">
@@ -279,27 +279,26 @@
         </div>
     </section>
 
-    <section id="anunciantes" class="py-5 anunciantes-section">
+    <section class="py-5">
         <div class="container text-center">
-            <h2 class="mb-3">Anunciantes</h2>
-            <p class="lead mb-5">
-                Empresas e organizações que anunciam na TV Judaica ampliam sua presença
-                em uma audiência qualificada e engajada. Nossa programação conecta
-                cultura, informação e valores a milhares de espectadores diariamente.
-            </p>
             <div id="anuncianteCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner" id="carousel-anunciantes">
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container text-center">
             <div class="mt-5 anunciante-contato">
-                <h4 class="mb-3">Anuncie na TV Judaica</h4>
+                <h4 class="mb-3">Contato</h4>
                 <p>
                     Se sua empresa deseja divulgar produtos ou serviços para uma
                     audiência relevante e comprometida com cultura e informação,
                     entre em contato conosco para conhecer nossas oportunidades
                     de publicidade.
                 </p>
-                <p class="mt-3">
+                <p class="mt-3 mb-5">
                     <i class="fas fa-envelope"></i>
                     contato@tvjudaica.com
                     &nbsp;&nbsp;
@@ -315,7 +314,7 @@
             <div class="d-flex justify-content-center gap-2 footer-store">
 
             </div>
-            <p>© 2026 TV Judaica - Todos os direitos reservados</p>
+            <p>© 2025 TV Judaica - Todos os direitos reservados</p>
             <p>
                 Desenvolvido com propósito e memória.
             </p>

@@ -64,7 +64,7 @@ body {
 }
 
 .section-padding {
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 .feature-box {
@@ -310,4 +310,11 @@ footer a {
 
 .anunciante-contato .fa-envelope {
     color: #ffc107;
+}
+
+.live-title {
+    display: block;
+    width: 100%;
+    color: #ffc107;
+    font-weight: bolder;
 }
