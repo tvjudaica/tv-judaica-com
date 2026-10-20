@@ -7,5 +7,14 @@
         "imagem_url": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/anunciante.png",
         "link_destino": "https://beithalochembrasil.org",
         "ativo": true
+    },
+    {
+        "id": 2,
+        "criado_em": "2026-02-21 17:46:05.274588+00",
+        "atualizado_em": "2026-02-21 17:46:05.274588",
+        "titulo": "beit halochem brasil",
+        "imagem_url": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/masterclass.jpeg",
+        "link_destino": "https://letsbuild.app.br/?lp=masterclass",
+        "ativo": true
     }
 ]

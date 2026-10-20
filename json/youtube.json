@@ -88,5 +88,23 @@
         "link_playlist": "https://youtube.com/@andreaorsibr?si=VnWRDgEbnlMk8WCw",
         "ativo": true,
         "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/IMG_7139.PNG"
+    },
+    {
+        "id": 11,
+        "criado_em": "2026-03-09 12:21:20.452516+00",
+        "atualizado_em": "2026-03-09 12:21:20.452516",
+        "nome": "Momento em Foco",
+        "link_playlist": "https://www.youtube.com/watch?v=UYkoY9tSV_4&list=PLNhcfGIlVajo",
+        "ativo": true,
+        "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/momento-em-foco%20.png"
+    },
+    {
+        "id": 12,
+        "criado_em": "2026-03-09 12:21:20.452516+00",
+        "atualizado_em": "2026-03-09 12:21:20.452516",
+        "nome": "Arena Judaica Esportes",
+        "link_playlist": "https://www.youtube.com/watch?v=gLPnOFxj2I0&list=PLDzWL0Q2xEjY",
+        "ativo": true,
+        "url_imagem": "https://lhgeazfkehjnwlaihrsu.supabase.co/storage/v1/object/public/thumbs/imagesThumbs/arena-judaica-esportes.png"
     }
 ]
